@@ -68,7 +68,7 @@ URxvt.borderLess:	false
 URxvt.transparent:	false
 URxvt.saveLines:        10000
 URxvt.xftAntialias:     true
-URxvt*font:             xft:Inconsolata\ for\ Powerline:pixelsize=12
+URxvt*font:             xft:Inconsolata\ for\ Powerline:pixelsize=13
 
 URxvt.scrollBar:        False
 URxvt.scrollBar_right:  False
