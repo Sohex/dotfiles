@@ -61,8 +61,7 @@ bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # lock session
-bindsym $mod+o exec i3lock
-# -i /home/conorf/Pictures/lock_resized.png -t
+bindsym $mod+o exec i3lock -i /home/cfutro/Pictures/lock_resized.png -t
 
 # change focus
 bindsym $mod+j focus left
