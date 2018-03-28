@@ -62,6 +62,7 @@ bindsym $mod+d exec dmenu_run
 
 # lock session
 bindsym $mod+o exec i3lock -i /home/cfutro/Pictures/lock_resized.png -t
+bindsym $mod+Shift+o exec i3lock && systemctl suspend
 
 # change focus
 bindsym $mod+j focus left
@@ -137,6 +138,9 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -185,6 +189,3 @@ client.focused #586e75 #586e75 #fdf6e3 #268bd2
 client.focused_inactive #073642 #073642 #93a1a1 #002b36
 client.unfocused #002b36 #002b36 #586e75 #002b36
 client.urgent #dc322f #dc322f #fdf6e3 #dc322f
-
-bindsym $mod+Shift+t move scratchpad
-bindsym $mod+t scratchpad show
